@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    background: rgb(253, 245, 132);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-box{
+    background: rgba(255, 255, 255, 0.1);
+    background-color: #a75009;
+    backdrop-filter: blur (50px);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 2px 1px 1px 4px #3a1a00;
+    border: solid 1px #CE6C03;
+    width: 350px;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 5rem;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.h1login{
+    text-shadow: 2.2px 1px 0 #361b01;
+    font-family: Tropi Land;
+}
+
+@font-face {
+    font-family: 'Tropi Land';
+    src: url('fonts/Tropi Land - (Demo) hanscostudio.com.ttf') format('truetype');
+}
+
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label{
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 5px;
+    border: solid 2.2px #fff019;
+    background-color: #FFEAA6;
+    border-radius: 8px;
+    color: ##755A00;
+    outline: none;
+    transition: background-color 0.3s ease, box-shadow 03s ease;
+}
+
+
+.login-box a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+button{
+ padding: 1em 2em;
+ background: none;
+ border: 2.5px solid #ffcc41;
+ font-size: 15px;
+ color: #131313;
+ cursor: pointer;
+ position: relative;
+ overflow: hidden;
+ transition: all 0.3s;
+ border-radius: 12px;
+ background-color: #ff8a1d;
+ font-weight: bolder;
+ box-shadow: 0 1px 0 2px #000;
+}
